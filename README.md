@@ -13,15 +13,15 @@ I used it to run simulations on various datasets (mainly simulated data). The go
 ## Contents
   
 Basically the toolbox contains the following algorithms (see the report for basic explanations and/or further references): 
-    * k-means with different initializations (random, k-means++)
-    * global k-means
-    * kernel k-means
-    * k-flats
-    * kernel k-flats
+* k-means with different initializations (random, k-means++)
+* global k-means
+* kernel k-means
+* k-flats
+* kernel k-flats
 
 The repo also contains the following files:
-    * technical\_report.pdf: this is the technical report I wrote at the end of my internship. It is focused on the mathematical aspects of the algorithms but gives a succint idea of how the implementation works.
-    * slides\_presentation: this is the set of slides I used for the oral presentation I gave at the Ecole Polytechnique. 
+* technical\_report.pdf: this is the technical report I wrote at the end of my internship. It is focused on the mathematical aspects of the algorithms but gives a succint idea of how the implementation works.
+* slides\_presentation: this is the set of slides I used for the oral presentation I gave at the Ecole Polytechnique. 
 
 ## Using the toolbox (quick and dirty)
 
