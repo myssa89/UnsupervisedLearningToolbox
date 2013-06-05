@@ -1,6 +1,6 @@
-### Author: Sammy El Ghazzal
-#### Date of creation: April - August 2012 
-#### Date of first commit: June 2013
+#### Author: Sammy El Ghazzal
+Date of creation: April - August 2012   
+Date of first commit: June 2013  
 
 Please report any bug or send feedback to myssa89 (at) gmail (dot) com
 
