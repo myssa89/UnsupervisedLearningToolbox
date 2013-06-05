@@ -25,13 +25,13 @@ The repo also contains the following files:
 
 ## Using the toolbox (quick and dirty)
 
-  You may need to type  
-      `>> addpath(genpath('functions'))`  
-  before using the toolbox. 
- 
-  Just type   
-      `>> learning`   
-  in Matlab to get information on the input parameters required and the different outputs according to the algorithm chosen. Only 2 parameters are required, the others have default values that are specified between squared brackets. 
+You need to include the functions directory, which you can do by typing   
+    `>> addpath(genpath('functions'))`  
+before using the toolbox. 
+
+Once this is done, just run
+    `>> learning`   
+in Matlab to get information on the input parameters required and the different outputs according to the algorithm chosen. Only 2 parameters are required, the others have default values that are specified between squared brackets. 
 
 ## Remarks
 
