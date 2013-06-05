@@ -1,6 +1,6 @@
-Author: Sammy El Ghazzal  
-Date of creation: April - August 2012   
-Date of first commit: June 2013  
+**Author:** Sammy El Ghazzal  
+**Date of creation:** April - August 2012   
+**Date of first commit:** June 2013  
 
 Please report any bug or send feedback to myssa89 (at) gmail (dot) com
 
@@ -36,7 +36,5 @@ The repo also contains the following files:
 ## Remarks
 
 * I let kmeans\_stable in the toolbox because I just implemented "fast" kmeans so there may be some bugs and I prefer to provide a stable version in case. 
-
 * Kernel k-flats is very sensitive to the values of the parameters. If you choose a dimension too big for the flat, it will not work (because the dimension of one of the cluster is too small to compute m eigenvectors).
-
 * If you want to use the toolbox on your custom dataset (non-simulated for instance), you can see how to call the appropriate functions by looking at the file learning.m. 
