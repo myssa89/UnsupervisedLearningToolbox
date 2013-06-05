@@ -19,6 +19,10 @@ Contents:
         - k-flats
         - kernel k-flats
 
+    The repo also contains the following files:
+        - technical_report.pdf: this is the technical report I wrote at the end of my internship. It is focused on the mathematical aspects of the algorithms but gives a succint idea of how the implementation works.
+        - slides_presentation: this is the set of slides I used for the oral presentation I gave at the Ecole Polytechnique. 
+
 Using the toolbox (quick and dirty):
 
   You may need to type
