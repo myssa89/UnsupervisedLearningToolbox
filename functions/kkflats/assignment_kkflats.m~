@@ -1,0 +1,7 @@
+function [C,mind2]=assignment_kkflats(k,C_,F,K)
+	DC = distance_centers(C_,K,k);
+	LP = length_proj(F,K,C_,k);
+	D=DC-LP
+	[mind2,C] = min(D,[],1); 
+	C=C';
+end

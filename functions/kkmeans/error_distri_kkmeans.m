@@ -1,0 +1,14 @@
+function [e,Ctr] = error_distri_kkmeans(C,T,D,Ktest,Ktrain,k) % D contains the distances between the test points ands the training points, returns the testing error and the assignments of the testing set
+	n=size(T,2);
+	for i = 1:k
+		ind = find(C==i); % contains the indices of points belonging to cluster i.
+		N=size(ind,1);
+		S=sum(sum(Ktrain(ind,ind)));
+		for j=1:n
+			D2(i,j)=Ktest(j,j)-2/N.*sum(D(ind,j),1)+1/N^2*S;
+		end
+	end
+	[mind2,Ctr] = min(D2,[],1); 
+	e=mean(mind2);
+	Ctr=Ctr';
+end

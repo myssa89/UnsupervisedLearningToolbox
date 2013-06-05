@@ -1,0 +1,11 @@
+function [X] = generate_trefoil2(n)
+
+	t=rand(n,1)*2*pi;
+	c=2+cos(3.*t);
+	X(:,1)=c.*cos(2.*t);
+	X(:,2)=c.*sin(2.*t);
+	X(:,3)=sin(3.*t);
+	X=X';
+
+end
+
